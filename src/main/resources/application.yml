@@ -1,0 +1,10 @@
+server:
+  port=9080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/session
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  session:
+    store-type: jdbc
