@@ -2,7 +2,7 @@ server:
   port: 9080
 spring:
   datasource:
-    url: jdbc:ignite:thin://localhost
+    url: jdbc:ignite:thin://ignite.host
     driver-class-name: org.apache.ignite.IgniteJdbcThinDriver
   session:
     store-type: jdbc
